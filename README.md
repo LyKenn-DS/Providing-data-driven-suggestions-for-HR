@@ -14,4 +14,10 @@ The data was collected by Human Resources via a survey of a sample of employees 
 It appeared that the company had failed to retain talents for long-term tenure, and most were inclined to leave at the beginning of the 3rd tenure.  
 
 ## Modeling and Evaluation
-Both logistic regression and random forest machine learning algorithms were used to construct models for the classification task. The random forest model outperformed logistic regression model, and has the advantages of reduced bias & variance. However, other factors like computational cost, latency, and complexity of implementations may also be considered depending on the production setting.    
+Both logistic regression and random forest machine learning algorithms were used to construct models for the classification task. The random forest model outperformed logistic regression model, and has the advantages of reduced bias & variance. However, other factors like computational cost, latency, and complexity of implementations may also be considered depending on the production setting. From the random forest model comprising of 800 decision trees, the Top 3 most important work features affecting the turnover of employees were the number of projects, tenure, and average monthly hours as illustrated in the plot below.
+![image](https://github.com/user-attachments/assets/bd0c9907-4e42-4999-873d-557e04fa8797)
+
+Combined with the exploratory results, it rendered a more holistic view of the subject as well as how the most influential factors may interact. So stakeholders could tailor a detailed solution based on the insights. 
+
+## Conclusion
+This model can be inherently valuable to help the company increase retention and job satisfaction for current employees, and save money and time training new employees. However, it can be skeptical for all with such overwhelming evaluation scores from a model. There is a chance that some data leakage was occurring during the development process and it will be prudent to incorporate feature engineering to build improved models in the next round.     
