@@ -14,4 +14,4 @@ The data was collected by Human Resources via a survey of a sample of employees 
 It appeared that the company had failed to retain talents for long-term tenure, and most were inclined to leave at the beginning of the 3rd tenure.  
 
 ## Modeling and Evaluation
-Both logistic regression and random forest machine learning algorithms were used to construct models for the classification task. The random forest model outperformed logistic regression model, and has the advantage of reduced bias & variance. However, depending on the production setting, other factors where the random forest could potentially fall short like computational cost, latency, and complexity of implementations may also be considered. 
+Both logistic regression and random forest machine learning algorithms were used to construct models for the classification task. The random forest model outperformed logistic regression model, and has the advantages of reduced bias & variance. However, other factors like computational cost, latency, and complexity of implementations may also be considered depending on the production setting.    
