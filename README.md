@@ -9,6 +9,7 @@ Currently, there is a high rate of turnover among Salifort employees (In this co
 
 ## Data Understanding
 The data was collected by Human Resources via a survey of a sample of employees to learn about what might be driving their turnover. It consisted of 15,000 respondents and 10 features. The features included meaningful information that gives increasing precision about the classification target such as evaluation_score, average working hours, the room for growth, and most importantly— whether an employee had left. The bar chart below shows the breakdown of the  employee tenures that exist in the data set. 
+
 ![image](https://github.com/user-attachments/assets/70a26aff-400a-4623-bb26-5ebb098fafba)
 
 It appeared that the company had failed to retain talents for long-term tenure, and most were inclined to leave at the beginning of the 3rd tenure.  
