@@ -1,5 +1,5 @@
 # Why Employees Quit
-(providing data-driven decisions of employee turnover that is preventable but often ignored)
+Eyeing on the data of employee turnover that is preventable but often ignored.
 
 ## Overview 
 The goals of this project were to identify factors that contributed to employees leaving and to build a model that predicts whether or not an employee will leave. This project utilized data and analytics in the space of human resources. Because each classification algorithm had its own quirks and was based on certain assumptions, several different models were built to facilitate the selection of an optimal classifier based on the computational performance as well as the predictive power. The random forest model performed sufficiently well with a generalized accuracy of 97.5% and a balanced f1 score of 91.4% (all weighted averages) after tweaking the model for a few rounds. From the combined exploratory and mining results, many of the employees were disdained with the poor management and work culture that was practiced in the company such as disproportionate workloads, extensive working hours, as well as the lack of perceived opportunities for growth.      
