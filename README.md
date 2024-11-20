@@ -3,6 +3,7 @@ Eyeing on the data of employee turnover that is preventable but often ignored - 
 
 ## Overview 
 This research project attempts to identify the reasons for employee turnover using data and analytics in the space of human resources. Usually this kind of study is conducted following a voluntary employee turnover as practiced by many Human Resources representatives—for example, through programs of exit interviews only in a dire attempt to hold down valuable or mass termination. While it may be practical in some, the exit interview approach often fails to account for the employees' emotions and well-being during their work, which can potentially leave the manager with lost opportunities to intervene, that is, after the employees have made up their minds to leave.<br> 
+
 By proactively managing the issue upfront, we'll gain more control of the matter in our hands, which in turn mitigates the need for costly replacements in the future, as well as boosting team engagement.        
   
 ## Data Understanding
