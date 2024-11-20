@@ -9,7 +9,7 @@ By proactively managing the issue upfront, we can gain more control of the matte
 ## Data Understanding
 The data was collected by Salifort's Human Resources via a survey of a sample of employees, consisting of 10 features and 15,000 responses. The features included are meaningful information that gives increasing precision about the classification target such as evaluation_score, workload/scheduling, career advancement, job satisfaction, and the most recent employment status in Salifort— whether an employee had left. The bar chart below shows the breakdown of the  employee tenures that exist in the data set. 
 
-![image](https://github.com/user-attachments/assets/6664eaaf-57be-433a-ad88-b00b84071b18)
+![image](https://github.com/user-attachments/assets/d2dea926-ede1-4cc9-8782-69168ad1d47c)
 
 From the trend, it appeared that the company failed to retain talents for long-term tenure, and many were inclined to leave after their 3rd tenure.  
 
