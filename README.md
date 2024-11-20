@@ -1,5 +1,5 @@
 # Why Employees Quit
-Eyeing on the data of employee turnover that is preventable but often ignored - [Python EDA & ML](https://github.com/LyKenn-DS/Providing-data-driven-suggestions-for-HR/blob/835f6e2396f85cd8abff14f48c9f6201fe207440/End-to-end_Machine-Learning-Project.ipynb).
+Eyeing on the data of employee turnover that is preventable but often ignored - [Python EDA & ML](End-to-end_Machine-Learning-Project.ipynb).
 
 ## Overview 
 This research project attempts to identify the reasons for employee turnover using data and analytics in the space of human resources. Usually this kind of study is conducted following a voluntary employee turnover as practiced by many Human Resources representatives—for example, through programs of exit interviews only in a dire attempt to hold down valuable or mass termination. While it may be practical in some, the exit interview approach often fails to account for the employees' emotions and well-being during their work, which can potentially leave the manager with lost opportunities to intervene, that is, after the employees have made up their minds to leave. By proactively managing the issue upfront, we're more likely to gain control of the matter in our hands and mitigate costly replacements in the future, along with boosting team engagement.        
