@@ -11,7 +11,7 @@ The data was collected by Salifort's Human Resources via a survey of a sample of
 
 ![image](https://github.com/user-attachments/assets/70a26aff-400a-4623-bb26-5ebb098fafba)
 
-From the trend, it appeared that the company failed to retain talents for long-term tenure, and many were inclined to leave after their 2nd tenure.  
+From the trend, it appeared that the company failed to retain talents for long-term tenure, and many were inclined to leave shortly after their 2nd tenure.  
 
 ## Modeling and Evaluation
 Both logistic regression and random forest machine learning algorithms were used to construct models for the classification task. The random forest model outperformed logistic regression model, and has the advantages of reduced bias & variance. However, other factors like computational cost, latency, and complexity of implementations might also be considered depending on the production settings. When weighing against all the meaningful variables provided in the dataset, the no of projects, rate of overtime work above standard working hours, and tenure showed the most significant effect on an employee's decision to leave. By no means, these 3 factors are a mere coincidence and the management should look more closely into the company's work culture to mitigate the issue.       
