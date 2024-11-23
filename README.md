@@ -14,12 +14,11 @@ The data was collected by Salifort's Human Resources via a survey of a sample of
 From the trend, it appeared that the company failed to retain talents for long-term tenure, and many were inclined to leave after their 3rd tenure.  
 
 ## Modeling and Evaluation
-Several preliminary models were setup and tested during the early development stage to get an intuition of where the basic evaluation score is. Using the iterative feature engineering and fine-tuning approach, I examined the feature variables as well as parameters for the model. Most notably, the random forest model outperformed the logistic regression with an overall generalized accuracy of 97.5% and a balance f1-score of 91.4%, along with the advantages of reduced bias & variance. <br>
-When weighing against all the meaningful variables provided in the dataset, the no of projects, rate of overtime work above standard working hours, and tenure showed the most significant effect on an employee's decision to leave. By no means, these 3 factors are a mere coincidence and the management should look more closely into the company's work culture to mitigate the issue.       
+Several preliminary models were setup and tested during the early development stage to get an intuition of where the basic evaluation score is. Using the iterative feature engineering and fine-tuning approach, I examined the feature variables as well as parameters for the model. Most notably, the random forest model outperformed the logistic regression with an overall generalized accuracy of 97.5% and a balance f1-score of 91.4%, along with the advantages of reduced bias & variance. <br>       
 
 ![image](https://github.com/user-attachments/assets/a3fd7640-bec7-4d1e-98a8-2bedd22dac72)
 
-Combined with the exploratory results, it rendered a more holistic view of the subject as well as how the most influential factors may interact. So stakeholders could tailor an effective solution based on the insights. 
+When weighing against all the meaningful variables provided in the dataset, the no of projects, rate of overtime work above standard working hours, and tenure showed the most significant effect on an employee's decision to leave. By no means, these 3 factors are a mere coincidence and the management should look more closely into the company's work culture to mitigate the issue.
 
 ## Conclusion
 This model can be inherently valuable to help the company increase retention and job satisfaction for current employees, and save money and time training new employees. However, it can be skeptical for all with such overwhelming evaluation scores from a model. There is a chance that some data leakage was occurring during the development process and it will be prudent to incorporate feature engineering to build improved models in the next round.     
