@@ -21,8 +21,8 @@ Several preliminary models were setup and tested during the early development st
 When weighing against all the meaningful variables provided in the dataset, the no of projects, rate of overtime work above standard working hours, and tenure showed the most significant effect on an employee's decision to leave. By no means, these 3 factors are a mere coincidence and the management should look more closely into the company's work culture to mitigate the issue.
 
 ## Conclusion
-- From the discovered insights about data, the satisfaction score is affected by the number of projects and average monthly hours in a way potentially due to disproportionate distribution of work. Many employees adopt an inner satisfactory score when they work and have a strong correlation to reward system, which often involves in motivation, learning, and productivity. 
+- From the discovered insights about data, the prominent feature variables were somewhat related to employees having inadequate ownership and feeling of genuine fulfillment in work—for example, the turn-offs due to overwhelming stress from high overwork rate, productivity problems, and a disproportionate amount of projects.         
 
-- Whereby, the employees tend to leave after their 2nd tenure when they realized they were trapped in a suboptimal work condition or offered with a better opportunity elsewhere as described by the groups.
+- Left unaddressed, the persistence of these frustrations and workflow issues leads to burnout and drives the employees to leave as soon as they lose their patience, which is especially true of short tenure.    
 
-- To retain potential talents, stakeholders ought to improve the quality of management that supports employee success and offer better growth opportunities during the 2nd tenure.   
+- To retain the potential talents, stakeholders ought to improve the organizational issues typically the staffing, workload, or scheduling that is important to support the well-being and success of employees. 
