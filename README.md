@@ -21,7 +21,7 @@ Several preliminary models were setup and tested during the early development st
 When weighing against all the meaningful variables provided in the dataset, the no of projects, rate of overtime work above standard working hours, and tenure showed the most significant effect on an employee's decision to leave. By no means, these 3 factors are a mere coincidence and the management should look more closely into the company's work culture to mitigate the issue.
 
 ## Conclusion
-- From the discovered insights about data, the prominent feature variables were somewhat related to employees having inadequate ownership and feeling of genuine fulfillment in work—for example, the turn-offs due to overwhelming stress from high overwork rate, productivity problems, and a disproportionate amount of projects.         
+- From the discovered insights about data, the prominent feature variables were somewhat related to employees having inadequate ownership and feeling of genuine fulfillment in work—for example, the turn-offs due to high overwork rate, productivity problems, and a disproportionate amount of projects.         
 
 - Left unaddressed, the persistence of these frustrations and workflow issues leads to burnout and drives the employees to leave as soon as they lose their patience, which is especially true of short tenure.    
 
