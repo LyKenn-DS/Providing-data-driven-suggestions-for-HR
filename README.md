@@ -11,7 +11,7 @@ This research project investigates the root causes of employee turnover by lever
 The core of this research lies in developing a predictive model using supervised machine learning techniques.  Specifically, algorithms like Logistic Regression, Decision Tree, and Random Forest will be employed to learn complex patterns from a rich dataset of employee information.         
 
 ## Data 
-![image](https://github.com/user-attachments/assets/d2dea926-ede1-4cc9-8782-69168ad1d47c)
+![image](https://github.com/user-attachments/assets/d2dea926-ede1-4cc9-8782-69168ad1d47c) 
 
 It appears in the trend that the company had failed to retain talents for long-term tenure, and many were inclined to leave soon after their 3rd tenure.
 
