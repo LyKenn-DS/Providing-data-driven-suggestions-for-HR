@@ -1,28 +1,33 @@
-# Why Employees Quit
+# Proactive Employee Turnover Prediction: A Data-Driven Approach
 Eyeing on the data of employee turnover that is preventable but often ignored - [Python EDA & ML](End-to-end_Machine-Learning-Project.ipynb).
 
+**Techniques applied:** `Data Cleaning`  `Exploratory Data Analysis` `Data Visualization` 
+`Feature Engineering` `Scikit-learn Classification Algorithms` `Scikit-learn Pipeline`
+`Fine Tuning & Evaluation of Models`
+
 ## Overview 
-This research project attempts to identify the reasons for employee turnover using data and analytics in the space of human resources. Usually this kind of study is conducted following a voluntary employee turnover as practiced by many Human Resources representatives—for example, through programs of exit interviews in a dire attempt to hold valuable or mass termination down. While it may be practical in some, the exit interview approach often fails to account for the employees' emotions and well-being during their work, which can potentially leave the manager with lost opportunities to intervene, that is, after the employees have made up their minds to leave.<br> 
+This research project investigates the root causes of employee turnover by leveraging data analytics and machine learning, offering a proactive alternative to traditional, reactive methods like exit interviews.  While exit interviews provide some insights, they often fall short by addressing the issue after an employee has decided to leave, missing crucial opportunities for intervention.  This project aims to shift the focus to proactive prediction, empowering organizations to identify at-risk employees and implement targeted retention strategies before they resign, ultimately mitigating the significant costs associated with employee replacement.
 
-By proactively managing the issue upfront, we'll gain more control of the matter in our hands and mitigate the need for costly replacements. In this project, the supervised machine learning techniques typically logistic regression, decision tree, and random forest were used to learn complex patterns from the available data and create a reliable model that is useful for making predictions on the binary classification task in the future.         
-  
-## Data Understanding
-The data was collected by Salifort's Human Resources via a survey of a sample of employees, consisting of 10 features and 15,000 responses. The features included are meaningful information that gives increasing precision about the classification target such as evaluation_score, workload/scheduling, career advancement, job satisfaction, and the most recent employment status in Salifort— whether an employee had left. The bar chart below shows the breakdown of the  employee tenures that exist in the data set. 
+The core of this research lies in developing a predictive model using supervised machine learning techniques.  Specifically, algorithms like Logistic Regression, Decision Tree, and Random Forest will be employed to learn complex patterns from a rich dataset of employee information.         
 
+## Data 
 ![image](https://github.com/user-attachments/assets/d2dea926-ede1-4cc9-8782-69168ad1d47c)
 
-From the trend, it appeared that the company failed to retain talents for long-term tenure, and many were inclined to leave after their 3rd tenure.  
+It appears in the trend that the company had failed to retain talents for long-term tenure, and many were inclined to leave soon after their 3rd tenure.
 
-## Modeling and Evaluation
-Several preliminary models were setup and tested during the early development stage to get an intuition of where the basic evaluation score is. Using the iterative feature engineering and fine-tuning approach, I examined the feature variables as well as parameters for the model. Most notably, the random forest model outperformed the logistic regression with an overall generalized accuracy of 97.5% and a balance f1-score of 91.4%, along with the advantages of reduced bias & variance. <br>       
+Exploration and analysis of the data show 3 distinct groups who left the company:
+1. **Highly dissatisfied employees with high evaluation scores:** These employees have low satisfaction levels, high monthly hours, and no promotions.
+2. **Dissatisfied employees with low evaluation scores:** These employees have high satisfaction levels, low monthly hours, and no promotions.
+3. **Satisfied employees with high evaluation scores:** These employees have high satisfaction levels but high monthly hours and still leave the company.
 
-![image](https://github.com/user-attachments/assets/a3fd7640-bec7-4d1e-98a8-2bedd22dac72)
+Often, top talents in the first group can be retained with effective short-term reward strategies that offer both monetary and non-monetary recognition.  These strategies should be tailored to the specific company culture and individual employee needs. For example, profit-sharing programs and bonuses can provide direct financial incentives tied to company performance, aligning employee goals with organizational success.  Flexible work arrangements, including remote work options, can significantly improve work-life balance, a key factor for many top performers. 
 
-When weighing against all the meaningful variables provided in the dataset, the no of projects, rate of overtime work above standard working hours, and tenure showed the most significant effect on an employee's decision to leave. By no means, these 3 factors are a mere coincidence and the management should look more closely into the company's work culture to mitigate the issue.
+By combining these strategies, companies can tap into employees' intrinsic motivations, fostering a sense of appreciation, belonging, and ultimately, encouraging them to stay.  
 
-## Conclusion
-- From the discovered insights about data, the prominent feature variables were somewhat related to employees having inadequate ownership and feeling of genuine fulfillment in work—for example, the turn-offs due to high overwork rate, productivity problems, and a disproportionate amount of projects.         
+## Model
+To better classify and predict whether an employee will leave the company, a range of sophisticated models was investigated to establish a baseline performance metric. 
+Through an iterative process of feature engineering and parameter tuning, the influence of various feature variables and model parameters was carefully examined.  Notably, the Random Forest model significantly outperformed Logistic Regression, achieving a generalized accuracy of 97.5% and a balanced F1-score of 91.4%.  This superior performance is further supported by the Random Forest's inherent advantages in reducing both bias and variance.  These results suggest a strong potential for the Random Forest model in accurately predicting employee turnover. <br>       
 
-- Left unaddressed, the persistence of these frustrations and workflow issues leads to burnout and drives the employees to leave as soon as they lose their patience, which is especially true of short tenure.    
+![image](https://github.com/user-attachments/assets/8439a866-0d6e-4c89-8dc2-12c881668cd3)
 
-- To retain the potential talents, stakeholders ought to improve the organizational issues typically the staffing, workload, or scheduling that is important to support the well-being and success of employees. 
+The best-performing model, which considered all available predictor variables, identified the number of projects, overtime rate, and tenure as the most significant factors influencing an employee's decision to leave.  These findings suggest a potential connection to inadequate ownership and a lack of genuine fulfillment in work.  For example, the high overtime rate, perceived productivity problems, and disproportionate workload (reflected in the number of projects) may contribute to employee dissatisfaction.
